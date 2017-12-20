@@ -1,0 +1,192 @@
+/*clases para el header*/
+
+.header-size {
+  height: 100px;
+}
+
+header img {
+  width: 8em;
+}
+
+.head-mrg {
+  padding: 20px 80px;
+}
+
+/*clases para el section*/
+
+.img-fondo{
+  background-image: url(../assets/images/taxi.jpg);
+  background-size: cover;
+  background-position: center bottom;
+  height: -webkit-fill-available;
+  background-repeat: no-repeat;
+
+}
+
+.desktop{
+  transform: translateY(25%);
+}
+
+ .mobile{
+  transform: translateY(50%);
+}
+
+.padd-form{
+  padding: 10px 35px 40px;
+}
+
+.logo-higth{
+  width: 2em;
+}
+
+.logo-higth2{
+  width: 4em;
+}
+
+.box{
+  margin: 1em 0px;
+}
+
+
+
+
+
+
+
+/*
+
+.btn{
+  font-weight: 700;
+}
+
+
+.img-phone{
+  background-image: url('../assets/images/iPhone6Plus.png');
+  height: -webkit-fill-available;
+  background-repeat: no-repeat;
+  background-position: center;
+
+}
+
+.section-download-app {
+  padding: 40px 20px 0px;
+}
+
+.img-driver{
+  background-image: url("../assets/images/conduce.jpg");
+  background-size: cover;
+  background-position: right;
+  height: 70vh;
+}
+
+.camp-text{
+  color: white;
+  background-color: #f7b617;
+  border-radius: 8px;
+  border: 2px solid white;
+  position: relative;
+  left:50px;;
+  bottom: 20px;
+}
+
+.section-inputs{
+  margin-top: 40px;
+}
+
+.boton{
+  margin: 25px 80px;
+}
+
+.img-ruta{
+
+  height: -webkit-fill-available;
+  background-repeat: no-repeat;
+  height: 400px;
+  background-position: bottom;
+  background-size: cover;
+}
+
+.img-ruta-movil{
+  border: 2px solid #fff;
+  padding: 10px;
+}
+
+.section-container{
+  padding: 50px;
+}
+
+/*  clases para el footer   */
+/*footer{
+  background-color: #2b2b2b;
+  color: #fff;
+}
+
+.img-logo{
+  padding: 20px;
+}
+
+.messy-lists{
+  line-height: 2.5;
+}
+
+.content-icons span{
+  padding: 2px;
+}
+
+.logo-footer {
+  padding-top: 25px;
+}
+
+.container-footer{
+  font-size: 1.2em;
+}
+
+/* 3era seccion - clases para la version desktop*/
+/*.driver{
+  background-color: rgba(0,0,0,0.58);
+  height: -webkit-fill-available;
+  padding: 80px 40px;
+}
+
+.position{
+  position: relative;
+  top: 170px;
+}
+
+.position-icons{
+  position: relative;
+  top: 300px;
+}
+
+.modal-class{
+  background-color: #000;
+}
+
+.color-box{
+  background-color: #a9a9a9;
+}
+
+
+@media (max-width:768px){
+  .img-phone {
+    border: 2px solid white;
+  }
+  .img-ruta{
+    background-image: url("../assets/images/mapa-movil.jpg");
+  }
+}
+
+@media (min-width:768px){
+
+
+
+  .img-phone{
+    background-size: contain;
+  }
+  .section-download-app{
+    height: 400px;
+  }
+    .img-ruta{
+  background-image: url("../assets/images/mapa.jpg");
+  }
+}

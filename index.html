@@ -1,57 +1,184 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8">
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link type="text/css" rel="stylesheet" href="vendors/materialize/css/materialize.min.css"/>
+    <link rel="stylesheet" href="fonts/style.css">
     <link rel="stylesheet" type="text/css" href="css/main.css">
-    <title>LabCar-Materialize</title>
+    <!-- iconos de materialize -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <title> LabCar-Materialize </title>
   </head>
   <body>
     <header>
-        <nav class="white">
+        <nav class="white header-size head-mrg">
           <div class="nav-wrapper">
-            <img src="assets/images/logoForma.png" alt="log labCar">
-            <ul class="right hide-on-med-and-down blue-text">
-              <li><a class="black-text">Viaja</a></li>
+             <!-- logo-header -->
+            <img class="" src="assets/images/logoForma.png" alt="logo de labCar">
+            <ul class="right hide-on-med-and-down ">
+               <!-- lista de navegacion -->
+              <li><a class="black-text ">Viaja</a></li>
               <li><a class="black-text">Conduce</a></li>
               <li><a class="black-text">Inicia Sesion</a></li>
             </ul>
           </div>
         </nav>
-  </header>
+      </header>
 
-  <!-- version movil -->
-  <article >
-      <div class=>
-        <img src="assets/images/taxu.jpg" alt="">
-        <div class="">
-          <div >
-            <div >
-              <h3>Comienza a viajar <br> con <img class="responsive-img" src="assets/images/logoBlanco.png" alt="logo de labcar"></h3>
-              <button >Descarga el app</button>
+      <section>
+        <div class="img-fondo">
+          <div class="row">
+               <!-- formulario de registro  VERSION MOVIL-->
+             <div class="col s9 offset-s3 hide-on-med-and-up mobile right">
+                <div class="amber white-text padd-form">
+                  <h3>Comienza a viajar <br> con <img class="logo-higth" src="assets/images/logoBlanco.png" alt="logo de labcar"></h3>
+                  <button class="btn black-text purple lighten-5">Descarga el app</button>
+                </div>
+              </div>
+           </div>
+               <!-- formulario de registro  version desktop -->
+           <div class="row">
+            <div class="col m5 hide-on-small-only desktop right">
+              <div class="amber white-text padd-form">
+                <h5>Disfruta del viaje <br> Eres dueño de tu tiempo</h5>
+                <div class="box">
+                  <span>Viaja con</span>
+                  <img class="logo-higth2" src="assets/images/logoBlanco.png" alt="logo de labcar">
+
+                </div>
+                <button class="box btn black-text purple lighten-5">REGISTRATE</button>
+                 <hr>
+                <button class="box btn black-text purple lighten-5"> Conviertete en conductor</button>
+              </div>
             </div>
           </div>
         </div>
-        <div >
-          <div >
-            <div >
-              <h3>Disfruta del viaje <br>
-                  Eres dueño de tu tiempo</h3>
-              <div>
-                <span>Viaja con</span>
-                <img src="assets/images/logoBlanco.png" alt="logo de labcar">
-              </div>
-              <button >REGISTRATE</button>
-              <hr>
-              <button>Conviertete en un conductor</button>
+      </section>
+    <!--
+    <main>  2da seccion img iphone -  version movil -->
+      <!-- <div class="container-fluid">
+        <div class="row">
+          <div class="section-download-app color-found col-xs-12 visible-xs ">
+            <div class=" img-phone">
+              <h3 class="text-center">La nueva app </h3>
+            </div>
+            <h4 class="logo-footer">llega a tu destino aun mas rapido</h4>
+          </div>
+        </div> -->    <!-- 2da seccion img iphone -  version desktop -->
+        <!-- <div class="row hidden-xs section-download-app color-found">
+          <div class=" img-phone col-sm-3 col-sm-offset-1"> </div>
+          <div class=" col-sm-3 col-sm-offset-1">
+            <h3>Descarga la nueva app</h3>
+            <p>La version actualizada de LabCar esta llena de nuevas funciones
+              para llegar a donde quieras aun mas facil y rapido</p>
+            <p>Con solo tocar un boton, un auto llega justo a tu ubicacion. Subete y no te preocupes: tu conductor sabe exactamente a donde ir.</p>
+          </div>
+        </div>
+      </div>
+    </main> -->
+    <!-- 3era seccion version movil-->
+    <!-- <aside>
+      <div class="img-driver"> -->  <!--imagen de fondo -->
+        <!-- <div class="container-fluid">
+          <div class="row">--> <!--agregando columnas para la version desktop -->
+            <!-- <div class="col-xs-12  col-sm-4 col-sm-offset-8 color-letra driver">
+              <h3> <strong>Conduce cuando quieras</strong></h3>
+              <p>LabCar es una opcion flexible para alcanzar tus metas financieras.</p>
+              <button class="btn btn-default color-found" data-toggle="modal" data-target="#myModalRegistererDriver">Convierte en un conductor</button>
             </div>
           </div>
         </div>
       </div>
-    </article>
-  </section>
+    </aside> -->
+
+<!-- 4era seccion TARIFAS version movil-->
+    <!-- <section class="container-fluid color-found section-container">
+      <article class="row">
+        <div class="col-xs-12 col-sm-5">
+          <h2><strong>Tarifas</strong></h2>
+          <h3>Consulta las tarifas LabCar aqui</h3>
+            <div class="section-inputs">
+              <div class="input-group">
+                <img src="assets/images/shape.png" alt="">
+                <input type="text" class="form-control camp-text"value ="Ingrese su punto de partida">
+              </div>
+              <div class="input-group">
+                <img src="assets/images/shape2.png" alt="">
+                <input type="text" class="form-control camp-text"value ="Ingrese su destino">
+              </div>
+            </div>
+          <button class="btn btn-default center-block boton">!TRAZAR RUTA!</button>
+          <div class="visible-xs"> 11 </div>
+        </div>-->  <!--4era seccion IMG-Google maps version movil-->
+        <!-- <div class="col-xs-10 col-xs-offset-1 col-sm-5 img-ruta-movil">
+          <div class="img-ruta"></div> <!-- contenedor de imagen  -->
+        </div>
+      </article>
+    </section>
+
+    <footer>   <!-- contenedor del footer version-mobile  -->
+        <!-- <div class="img-logo">
+          <img src="assets/images/logoBlanco.png"   alt="logo de labCar">
+          <hr>
+        </div>
+        <div class="container-fluid container-footer">
+          <div class="row">
+              <ul class="col-xs-2 col-sm-offset-3 messy-lists list-unstyled">
+                <li>Viaja</li>
+                <li>Conduce</li>
+                <li>Ciudades</li>
+                <li>Ciudades</li>
+                <li>Entregas</li>
+                <li>Como funciona?</li>
+                <li>Paises</li>
+                <li>Seguridad</li>
+              </ul>
+            <div class="hidden-xs ">
+              <ul class=" col-sm-2 col-sm-offset-1 messy-lists list-unstyled">
+                <li>Oportunidades</li>
+                <li>Nuestra Historia</li>
+                <li>API de LabCar</li>
+                <li>Eventos</li>
+                <li>Desarrolladores</li>
+                <li>Servicios</li>
+                <li>Laboratoria</li>
+                <li>Coders</li>
+              </ul>
+            </div> -->
+            <!-- iconos de footer de icomoon  -->
+            <!-- <div class="col-xs-4 col-xs-offset-5 visible-xs">
+              <div class="content-icons">
+                <span class="icon-facebook"></span>
+                <span class="icon-twitter"></span>
+                <span class="icon-linkedin"></span>
+                <span class="icon-apple"></span>
+                <span class="icon-play"></span>
+              </div>
+              <div class="visible-xs">   <!-- logos de google play y apple  -->
+                <!-- <img class="logo-footer img-responsive" src="assets/images/enBadgeWebGeneric.png" alt="logo google play">
+                <img class="logo-footer img-responsive" src="assets/images/appstore.png" alt="logo apple">
+              </div>
+            </div> <!-- iconos, logo version desktop  -->
+
+            <!-- <div class=" hidden-xs col-sm-2 col-sm-pull-8 position-icons ">
+              <span class="icon-facebook"></span>
+              <span class="icon-twitter"></span>
+              <span class="icon-linkedin"></span>
+              <span class="icon-apple"></span>
+              <span class="icon-play"></span>
+            </div>
+            <div class=" hidden-xs col-sm-2 col-sm-pull-1 position">
+              <img class="logo-footer img-responsive" src="assets/images/enBadgeWebGeneric.png"     alt="logo google play">
+              <img class="logo-footer img-responsive block-center" src="assets/images/appstore.png" alt="logo apple">
+            </div>
+          </div>
+          <hr>
+          <p> © 2017 LabCar technologies.Inc.</p>
+        </div>
+      </div>
+    </footer> -->
 
 
 
